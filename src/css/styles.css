@@ -576,3 +576,138 @@ a {
   transition: all 0.5s ease-in-out;
 }
 
+/* دعم الدارك مود */
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+  }
+
+  .card figcaption,
+  .cards-category,
+  #head,
+  #score,
+  #tasbe7,
+  #circle p {
+    color: #f0f0f0;
+  }
+
+  .card,
+  .cards,
+  #head,
+  #shelf,
+  #circle,
+  #line {
+    background-color: #1e1e1e;
+    border-color: #333;
+  }
+
+  #circle {
+    background-color: #2a2a2a;
+  }
+
+  .cards-category {
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.9);
+  }
+
+  .card figcaption {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent);
+  }
+
+  .cards-grid:hover > .cards:not(:hover) .cards-background,
+  .cards-grid:hover > .cards:not(:hover) .cards-category {
+    filter: saturate(0) contrast(1.2) blur(10px) brightness(0.8);
+  }
+  /* الوضع الليلي لصفحة الذكر */
+.custom-card {
+  background: #1e1e1e;
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.05);
+}
+
+.custom-card p {
+  color: #e0e0e0;
+}
+
+.custom-card span {
+  color: #cccccc;
+}
+
+.custom-card .custom-button {
+  background: #444;
+}
+
+/* الوضع الليلي لصفحة القرآن */
+.text-wrapper h2 {
+  color: #e0e0e0;
+}
+
+.text-wrapper h2:nth-child(1) {
+  -webkit-text-stroke: 1px #e0e0e0;
+}
+
+.text-wrapper h2:nth-child(2) {
+  color: #e0e0e0;
+}
+
+.vidcard {
+  background-color: #2a2a2a;
+  box-shadow: 0 4px 12px rgba(255, 255, 255, 0.1);
+}
+
+.vidcard figcaption {
+  color: #f0f0f0;
+}
+
+/* الوضع الليلي لصفحة الدعاء */
+.filter-dropdown {
+  background: linear-gradient(to right, #3a3a3a, #2e2e2e);
+  color: #ddd;
+  border-color: #555;
+}
+
+.dua-card {
+  background: #2a2a2a;
+  color: #ffffff;
+}
+
+.dua-card::before {
+  background: linear-gradient(45deg, #555, #777, #999, #aaa);
+}
+
+.dua-btn {
+  color: #e0e0e0;
+  border-color: #aaa;
+}
+
+.dua-btn::before {
+  background-color: #444;
+}
+
+.dua-btn::after {
+  background-color: #111;
+}
+
+.dua-spn {
+    color: #e0e0e0;
+  }
+  .dua-emoji {
+    color: #ccc; 
+  }
+.athkari-container {
+  background-color: #1e1e1e;
+  color: #e0e0e0;
+}
+.athkari-container p,
+.athkari-container span {
+  color: #cccccc;
+}
+.custom-card h2,
+  .custom-card p {
+    color: #ffffff;
+  }
+
+  .custom-button {
+    background-color: #333;
+    color: #fff;
+  }
+}
